@@ -1,0 +1,12 @@
+{
+  "source_lines": 241,
+  "blank_lines_skipped": 0,
+  "records": 240,
+  "payload_bytes": 12975,
+  "minimum_length": 33,
+  "maximum_length": 77,
+  "semicolon_field_counts": [
+    4
+  ],
+  "sha256": "2b6931d7ff828a7589a5e6faa54139cdade08d5f5dffaeb51d5872b6a8e9eee0"
+}

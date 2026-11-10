@@ -1,0 +1,9 @@
+{
+  "dataset": "synthetic.txt",
+  "buffer_capacity": 3,
+  "policy": "LRU",
+  "fixed_capacities": "derive",
+  "skip_header": false,
+  "repetitions": 1,
+  "label": "SYNTHETIC validation only \u2014 student.txt missing"
+}

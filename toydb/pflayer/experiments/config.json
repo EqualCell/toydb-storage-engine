@@ -1,0 +1,22 @@
+{
+  "buffer_sizes": [
+    4,
+    16
+  ],
+  "page_count": 64,
+  "operation_count": 4000,
+  "seed": 20261104,
+  "write_percentages": [
+    0,
+    25,
+    50,
+    75,
+    100
+  ],
+  "access_patterns": [
+    "sequential",
+    "hot_random"
+  ],
+  "hot_pages": 8,
+  "hot_percent": 80
+}

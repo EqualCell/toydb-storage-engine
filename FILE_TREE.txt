@@ -1,0 +1,139 @@
+toydb-github-ready/
+├── data/
+│   └── student.txt
+├── scripts/
+│   └── make_sample_data.py
+├── toydb/
+│   ├── amlayer/
+│   │   ├── DOC
+│   │   ├── am.c
+│   │   ├── am.h
+│   │   ├── ambulk.c
+│   │   ├── amfns.c
+│   │   ├── amglobals.c
+│   │   ├── aminsert.c
+│   │   ├── amprint.c
+│   │   ├── amscan.c
+│   │   ├── amsearch.c
+│   │   ├── amstack.c
+│   │   ├── amvalidate.c
+│   │   ├── main.c
+│   │   ├── makefile
+│   │   ├── misc.c
+│   │   ├── pf.h
+│   │   ├── test1.c
+│   │   ├── test2.c
+│   │   ├── test3.c
+│   │   └── testam.h
+│   ├── indexing/
+│   │   ├── experiments/
+│   │   │   ├── public-results/
+│   │   │   │   ├── config.json
+│   │   │   │   ├── medians.csv
+│   │   │   │   ├── raw.csv
+│   │   │   │   └── table.md
+│   │   │   ├── results/
+│   │   │   │   ├── comparison.png
+│   │   │   │   ├── comparison.svg
+│   │   │   │   ├── config.json
+│   │   │   │   ├── medians.csv
+│   │   │   │   ├── raw.csv
+│   │   │   │   └── table.md
+│   │   │   ├── config.json
+│   │   │   ├── plot.py
+│   │   │   └── run.py
+│   │   ├── Makefile
+│   │   ├── README.md
+│   │   ├── benchmark.c
+│   │   ├── check.py
+│   │   ├── index.c
+│   │   ├── index.h
+│   │   ├── test_am.c
+│   │   └── test_index.c
+│   ├── pflayer/
+│   │   ├── experiments/
+│   │   │   ├── public-results/
+│   │   │   │   ├── config.json
+│   │   │   │   └── results.csv
+│   │   │   ├── results/
+│   │   │   │   ├── completed_operations.png
+│   │   │   │   ├── completed_operations.svg
+│   │   │   │   ├── config.json
+│   │   │   │   ├── hot_random.png
+│   │   │   │   ├── hot_random.svg
+│   │   │   │   ├── results.csv
+│   │   │   │   ├── sequential.png
+│   │   │   │   ├── sequential.svg
+│   │   │   │   └── summary.md
+│   │   │   ├── config.json
+│   │   │   ├── plot.py
+│   │   │   └── run.py
+│   │   ├── IMP.DOC
+│   │   ├── Makefile
+│   │   ├── README.md
+│   │   ├── buf.c
+│   │   ├── check.sh
+│   │   ├── hash.c
+│   │   ├── pf.c
+│   │   ├── pf.h
+│   │   ├── pftypes.h
+│   │   ├── testbufsize.c
+│   │   ├── testhash.c
+│   │   ├── testiofail.c
+│   │   ├── testpf.c
+│   │   ├── testphase1.c
+│   │   ├── testutil.h
+│   │   └── workload.c
+│   ├── rmlayer/
+│   │   ├── experiments/
+│   │   │   ├── public-results/
+│   │   │   │   ├── config.json
+│   │   │   │   ├── dataset.json
+│   │   │   │   ├── results.csv
+│   │   │   │   └── table.md
+│   │   │   ├── results/
+│   │   │   │   ├── config.json
+│   │   │   │   ├── dataset.json
+│   │   │   │   ├── results.csv
+│   │   │   │   └── table.md
+│   │   │   ├── synthetic-results/
+│   │   │   │   ├── config.json
+│   │   │   │   ├── dataset.json
+│   │   │   │   ├── results.csv
+│   │   │   │   └── table.md
+│   │   │   ├── config.json
+│   │   │   ├── make_synthetic.py
+│   │   │   ├── run.py
+│   │   │   └── synthetic-config.json
+│   │   ├── Makefile
+│   │   ├── README.md
+│   │   ├── benchmark.c
+│   │   ├── check.sh
+│   │   ├── common.c
+│   │   ├── fixed.c
+│   │   ├── fixed.h
+│   │   ├── internal.h
+│   │   ├── rm.c
+│   │   ├── rm.h
+│   │   ├── student.c
+│   │   ├── student.h
+│   │   ├── test_failures.c
+│   │   ├── test_import.py
+│   │   ├── test_records.c
+│   │   ├── test_rm.c
+│   │   └── test_student.c
+│   ├── Makefile
+│   ├── README.md
+│   ├── REPORT.md
+│   ├── TEAM.md
+│   ├── am.ps
+│   └── pf.ps
+├── .gitignore
+├── ATTRIBUTION.md
+├── FILE_TREE.txt
+├── MANIFEST.json
+├── Makefile
+├── PROVENANCE.json
+├── README.md
+├── REDISTRIBUTION.md
+└── VERIFICATION.md

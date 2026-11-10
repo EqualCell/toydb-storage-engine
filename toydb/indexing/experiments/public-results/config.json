@@ -1,0 +1,17 @@
+{
+  "dataset": "../../../data/student.txt",
+  "skip_header": true,
+  "key_column": 2,
+  "key_length": 8,
+  "buffer_capacity": 20,
+  "policy": "LRU",
+  "methods": [
+    "existing",
+    "incremental",
+    "bulk"
+  ],
+  "repetitions": 3,
+  "seed": 20261104,
+  "range_queries": 6,
+  "dataset_sha256": "2b6931d7ff828a7589a5e6faa54139cdade08d5f5dffaeb51d5872b6a8e9eee0"
+}

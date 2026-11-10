@@ -1,0 +1,54 @@
+# Compiler/linker outputs
+*.o
+*.a
+*.so
+*.dylib
+*.dll
+*.exe
+# Programs (keep test and benchmark source files)
+/toydb/pflayer/testhash
+/toydb/pflayer/testpf
+/toydb/pflayer/testbufsize
+/toydb/pflayer/testphase1
+/toydb/pflayer/testiofail
+/toydb/pflayer/workload
+/toydb/rmlayer/test_rm
+/toydb/rmlayer/test_records
+/toydb/rmlayer/test_student
+/toydb/rmlayer/test_failures
+/toydb/rmlayer/benchmark
+/toydb/indexing/test_index
+/toydb/indexing/test_am
+/toydb/indexing/benchmark
+/toydb/amlayer/test1
+/toydb/amlayer/test2
+/toydb/amlayer/test3
+/toydb/amlayer/main
+# Generated databases and legacy test relations
+*.pf
+*.db
+*.idx
+*.index
+**/testrel*
+# Runtime/build logs; curated results and graphs remain versionable
+*.log
+# Python and temporary environment files
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+*.tmp
+*.temp
+*.swp
+*~
+.DS_Store
+/submission/
+*.tar.gz
+# Local-only configuration and secrets
+.env
+.env.*
+.aws/
+.codex/
+.agents/

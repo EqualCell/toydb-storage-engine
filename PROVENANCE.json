@@ -1,0 +1,40 @@
+{
+  "source_archive": "toydb/submission/final/submission-pending-team-rolls.tar.gz",
+  "source_archive_sha256": "9246351d225debab65e207a11be58c82e31cd92eb2ed0dd2d5818f5e15951aa9",
+  "selection_reason": "Latest archive with adjacent matching verification.json and passing archive verification log; selected over older renamed archive.",
+  "archive_manifest_files_verified": 161,
+  "archive_manifest_mismatches": 0,
+  "supplied_data_files_excluded": 24,
+  "source_and_test_bytes_modified": false,
+  "data_status": "independently generated synthetic public fixture",
+  "permission_status": "portfolio-purpose public sharing permitted under IIT Jodhpur institute policy as reported by project owner; official policy not independently verified; no general reuse license established",
+  "changes": [
+    "root documentation and Makefile wrapper",
+    "gitignore",
+    "synthetic sample and generator",
+    "RM synthetic default/config label and derived fixed sizes",
+    "RM/index experiment output default changed to public-results",
+    "historical document banners",
+    "obsolete packaging/report scripts and package target omitted",
+    "absolute dataset paths redacted from JSON",
+    "original TEAM metadata replaced with unnamed contributor statement",
+    "five publication records updated to record owner-reported IIT Jodhpur portfolio-sharing policy and its evidence limits"
+  ],
+  "publication_basis": {
+    "institution": "IIT Jodhpur",
+    "source": "project owner statement in conversation on 2026-11-10",
+    "reported_scope": "students may publicly share academic assignments and projects for resumes and professional portfolios",
+    "official_policy_reference": null,
+    "verification_status": "official text/reference not supplied; targeted official-site search did not locate matching policy",
+    "inherited_third_party_material_coverage": "not established by supplied description",
+    "general_open_source_or_relicensing_permission": "not established",
+    "original_dataset_redistribution": "not claimed; all 24 supplied tables remain excluded"
+  },
+  "material_categories": {
+    "inherited_framework": "supplied PF/AM framework, original tests and teaching documents; existing author/institutional notices preserved",
+    "project_team_work": "implementations/modifications, added tests, experiments and report in tested submission; complete per-person/upstream change breakdown unavailable",
+    "public_dataset": "240 independently invented records; scripts/make_sample_data.py generates data/student.txt",
+    "historical_measurements": "RM/index experiments/results used excluded course dataset; PF workloads and RM synthetic-results used synthetic inputs; new public runs are in public-results"
+  },
+  "manifest_status": "MANIFEST.json contains current SHA-256 hashes for every repository file except MANIFEST.json itself; all listed paths and complete inventory verified"
+}

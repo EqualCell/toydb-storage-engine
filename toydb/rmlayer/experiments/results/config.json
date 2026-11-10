@@ -1,0 +1,19 @@
+{
+  "dataset": "../../../data/student.txt",
+  "buffer_capacity": 3,
+  "policy": "LRU",
+  "fixed_capacities": [
+    108,
+    162,
+    216
+  ],
+  "skip_header": true,
+  "repetitions": 1,
+  "label": "supplied student data (title excluded)",
+  "resolved_fixed_capacities": [
+    108,
+    162,
+    216
+  ],
+  "page_size": 4096
+}

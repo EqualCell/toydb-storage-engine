@@ -1,0 +1,9 @@
+{
+  "dataset": "../../../data/student.txt",
+  "buffer_capacity": 3,
+  "policy": "LRU",
+  "fixed_capacities": "derive",
+  "skip_header": true,
+  "repetitions": 1,
+  "label": "SYNTHETIC public example (240 invented records)"
+}
